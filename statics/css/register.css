@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+body{
+	background-image: url(/static/img/music_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*.playform{
+	margin-top: 20em;
+	text-align: center;
+	width: 100%;
+}
+.music{
+	margin-top: 10em;
+	text-align: center;
+	width: 100%;
+}*/
+/*.game{
+	font-family:"隶书";
+}
+.myform{
+	font-family:"楷体";
+	font-style: normal;
+	font-size: 1em;
+}*/
+/*.text{
+	padding: 7px 8px;
+	color: #333;
+	background-color: #fff;
+	background-position: right center;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.15s ease-in;
+	-webkit-transition: all 0.15s ease-in 0;
+	vertical-align: middle;
+}
+.text:focus {
+	border-color: #51a7e8;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5);
+}
+.button {
+	position: relative;
+	display: inline-block;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+	background-repeat: repeat-x;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	border-bottom-color: #c5c5c5;
+	box-shadow: 0 1px 3px rgba(0,0,0,.05);
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button:focus{
+	outline: none;
+	border-color: #51a7e8;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5);
+}*/

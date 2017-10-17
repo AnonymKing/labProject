@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/static/css/login.css"/>
+	<script src="/static/js/login.js" type="text/javascript" charset="utf-8" async defer></script>
+	<title>❤姑苏流白❤</title>
+</head>
+<body>
+
+	<div class="log_form">
+		<form method="post" action="/login" onsubmit="return check()">
+			用户名：<input type="text" id="username" style="height: 20px;" name="username" onchange="checkName()" placeholder=""/>
+			<span id="checkName_text">&nbsp;&nbsp;</span>
+			<br />
+			密&ensp;&ensp;码：<input type="password" id="userpsw" style="height: 20px;" name="userpsw" onchange="checkPsw()" placeholder=""/>
+			<span id="checkPsw_text">&nbsp;&nbsp;</span>
+			<br /><br />
+			<input type="submit" id="log_button" style='font-size: 16px' value="登&ensp;&ensp;录"/><p style="color: #ff201e">{{remind}}</p>
+		</form>
+	</div>
+</body>
+</html>
