@@ -21,8 +21,7 @@ def insert_mysql(username, userpsw, usermail):
     except:
         db.rollback()
     cursor.close()
-    db.close()
-
+    db.cle()
 
 def open_mysql(name):
     db = pymysql.connect(host="localhost", user="root", passwd="370829", db="mylist", port=3306, charset='utf8')
