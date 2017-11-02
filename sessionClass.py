@@ -50,13 +50,7 @@ class Session:
         self.handler.set_cookie("xr_cookie", self.random_str, expires_days = self.cook_time)        #将密串作为cookie值，向浏览器写入cookie
 
     def __getitem__(self, key):                                          #当创建Session对象，后面跟着[xxx]自动执行，并接收[xxx]的值
-        """
-        使用方法：Session对象[xxx]
-        功能：获取cookie对应字典里，键为接收到参数的值，存在返回值，不存在返回None
-        """
-        # 获取客户端的随机字符串
-        # 从container中获取专属于我的数据
-        #  专属信息【key】
+
         random_str =  self.handler.get_cookie("xr_cookie")             #获取cookie里的密串
         if not random_str:                                              #判断cookie里的密串如果不存在
             return None                                                 #返回None
