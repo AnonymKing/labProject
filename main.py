@@ -9,7 +9,7 @@ import hashlib
 from tornado.options import define, options
 
 sql_user = "root"
-sql_psd = "370829"
+sql_psd = "123456"
 db_name = "mylist"
 hashlibHandler = hashlib.md5()#定义一个全局hashlib对象，便于使用
 
